@@ -1,30 +1,47 @@
+/*General for hele hjemmesiden*/
 * {
-    background-color: pink;
+    background-color: #aac495;
+    font-family: Times New Roman monospace;
+    color:#06402B;
 }
 html {
     scroll-behavior: smooth;
 }
+/*Body*/
 img {
     width: 50px;
     height: 50px;
 }
+
+
+
+
+/*Footer*/
 .contact-links {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
     list-style: none;
-
 }
-.contact-links a {
-    text-decoration: none;
-    color: red;
-}
-.telefonnummer {
+.e-mail,
+.telefonnummer,
+.LinkedIn {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-style:;
+    text-decoration: none;
+    gap: 10px;
+    text-align: center;
+    font-size: 12px;
 }
-.telefon-ikon {
+.telefon-ikon,
+.Linkedin-ikon,
+.e-mail-ikon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
     font-size: 50px;
+    line-height: 1;
 }
