@@ -1,0 +1,30 @@
+* {
+    background-color: pink;
+}
+html {
+    scroll-behavior: smooth;
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+
+}
+.contact-links a {
+    text-decoration: none;
+    color: red;
+}
+.telefonnummer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style:;
+}
+.telefon-ikon {
+    font-size: 50px;
+}
