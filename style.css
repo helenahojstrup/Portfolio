@@ -1,47 +1,147 @@
 /*General for hele hjemmesiden*/
-* {
-    background-color: #aac495;
-    font-family: Times New Roman monospace;
-    color:#06402B;
-}
+
+
 html {
     scroll-behavior: smooth;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
+/*Forside + header*/
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #06402B;
+    padding: 100px;
+    border-radius: 20px;
+}
+h1 {
+    display: flex;
+    justify-content: space-between;
+   color: #DDD1C7;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #DDD1C7;
+    margin-top: 10px;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: #df537bff;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 1000;
+}
+.logo-ikon {
+    width: 65px;
+    height: 65px;
+    color: #df537bff;
+
+}
+
 /*Body*/
+body {
+    color: #5E0B15;
+    margin: 0;
+    padding-left: 90px;
+    padding-right: 90px;
+    font-size: 20px;
+    background-color: #DDD1C7;
+
+}
+p {
+    text-align: justify;
+}
+
 img {
     width: 50px;
     height: 50px;
 }
+#om-mig h2{
+    display: flex;
+    justify-content: left;
+    color: #06402B;
+}
+#arbejdserfaring h2 {
+    display: flex;
+    justify-content: left;
+}
+#skoler-og-uddannelse h2 {
+    display: flex;
+    justify-content: left;
+}
+#skoler-og-uddannelse a {
+    color: #5E0B15;
+    text-decoration: none;
+}
 
+#skoler-og-uddannelse a:hover {
+    color: #df537bff;
+    text-decoration: underline;
+}
+    /*Footer*/
+footer {
+    border-radius: 20px;
 
-
-
-/*Footer*/
-.contact-links {
+    background-color: #06402B;
+}
+#kontakt h2 {
     display: flex;
     justify-content: center;
-    gap: 40px;
-    list-style: none;
+    color: #DDD1C7;
+    font-size: 30px;
+    margin: 0;
+    padding: 10px;
 }
-.e-mail,
-.telefonnummer,
-.LinkedIn {
+.contact-links {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-links a {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    gap: 10px;
-    text-align: center;
-    font-size: 12px;
+    gap: 2px;
+    color: #DDD1C7;
 }
-.telefon-ikon,
-.Linkedin-ikon,
-.e-mail-ikon {
+.contact-links a:hover {
+    color: #df537bff;
+}
+.contact-links-left {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 40px;
-    font-size: 50px;
-    line-height: 1;
+    gap: 10px;
+    margin-left: 20px;
+}
+.contact-links-right {
+    display: flex;
+    margin-right: 20px;
+    gap: 10px;
+}
+
+.contact-links svg {
+    width: 30px;
+    height: 30px;
+
+}
+.contact-links span {
+    padding: 10px;
+    font-size: 12px;
 }
