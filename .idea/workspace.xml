@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24e2022d-4201-4738-8ef9-3b0186305d35" name="Changes" comment="footer logo">
+    <list default="true" id="24e2022d-4201-4738-8ef9-3b0186305d35" name="Changes" comment="Tilføjelse af Favicon">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. portfolio projekt.docx" beforeDir="false" afterPath="$PROJECT_DIR$/1. portfolio projekt.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Billede.JPG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$ portfolio projekt.docx" beforeDir="false" afterPath="$PROJECT_DIR$/~$ portfolio projekt.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +96,7 @@
       <workItem from="1789138905540" duration="27699000" />
       <workItem from="1789387783453" duration="9000" />
       <workItem from="1789387876995" duration="12000" />
-      <workItem from="1789388899821" duration="15881000" />
+      <workItem from="1789388899821" duration="31401000" />
     </task>
     <task id="LOCAL-00001" summary="implemented html">
       <option name="closed" value="true" />
@@ -151,7 +154,31 @@
       <option name="project" value="LOCAL" />
       <updated>1789225762996</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="rettelse af links og en masse justeringer">
+      <option name="closed" value="true" />
+      <created>1789477644937</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1789477644937</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Tilføjelse til sektion 'om mig'">
+      <option name="closed" value="true" />
+      <created>1789590146830</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1789590146830</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Tilføjelse af Favicon">
+      <option name="closed" value="true" />
+      <created>1789590168714</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1789590168714</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +201,10 @@
     <MESSAGE value="test af hjemmeside" />
     <MESSAGE value="css style" />
     <MESSAGE value="footer logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer logo" />
+    <MESSAGE value="rettelse af links og en masse justeringer" />
+    <MESSAGE value="logo til favicon" />
+    <MESSAGE value="Tilføjelse til sektion 'om mig'" />
+    <MESSAGE value="Tilføjelse af Favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tilføjelse af Favicon" />
   </component>
 </project>

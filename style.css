@@ -8,24 +8,22 @@ html {
 }
 /*Forside + header*/
 header {
+    background-color: #06402B;
+    padding: 15px;
+    border-radius: 30px;
+    height: 500px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-between;
-    background-color: #06402B;
-    padding: 100px;
-    border-radius: 20px;
 }
-h1 {
-    display: flex;
-    justify-content: space-between;
-   color: #DDD1C7;
-}
+
 nav {
     display: flex;
-    justify-content: center;
-    align-content: center;
-    gap: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    margin-top: 15px;
 
 }
 
@@ -33,11 +31,45 @@ nav a {
     text-decoration: none;
     font-weight: 700;
     color: #DDD1C7;
-    margin-top: 10px;
+    padding: 15px;
+    border-bottom: 1px solid #DDD1C7;
+
 }
 nav a:hover {
-    text-decoration: underline;
-    color: #df537bff;
+    color: #D93060;
+    border-bottom-color: #D93060;
+}
+.billeder-til-header img {
+    width: 100px;
+    height: 100px;
+}
+.billeder-til-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#forside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    color: #DDD1C7;
+    margin-top: 20px;
+    gap: 40px;
+    letter-spacing: 25px;
+}
+#forside h1 {
+    margin: 0px;
+    font-size: 50px;
+}
+#forside p {
+    font-size: 14px;
+    margin-top: -20px;
+    letter-spacing: 2px;
+    color: #D93060;
+    margin-bottom: 10px;
 }
 .logo {
     display: flex;
@@ -52,7 +84,7 @@ nav a:hover {
 .logo-ikon {
     width: 65px;
     height: 65px;
-    color: #df537bff;
+    color: #2C6E49;
 
 }
 
@@ -64,16 +96,13 @@ body {
     padding-right: 90px;
     font-size: 20px;
     background-color: #DDD1C7;
-
+    letter-spacing: 1px;
 }
 p {
     text-align: justify;
+    letter-spacing: 1px;
 }
 
-img {
-    width: 50px;
-    height: 50px;
-}
 #om-mig h2{
     display: flex;
     justify-content: left;
@@ -86,20 +115,23 @@ img {
 #skoler-og-uddannelse h2 {
     display: flex;
     justify-content: left;
-}
-#skoler-og-uddannelse a {
     color: #5E0B15;
-    text-decoration: none;
-}
 
+}
+.uddannelse-link {
+    text-decoration: none;
+    color: #5E0B15;
+}
+ol {
+    list-style: none;
+    letter-spacing: 1px;
+}
 #skoler-og-uddannelse a:hover {
-    color: #df537bff;
-    text-decoration: underline;
+    color: #D93060;
 }
     /*Footer*/
 footer {
-    border-radius: 20px;
-
+    border-radius: 30px;
     background-color: #06402B;
 }
 #kontakt h2 {
@@ -123,7 +155,7 @@ footer {
     color: #DDD1C7;
 }
 .contact-links a:hover {
-    color: #df537bff;
+    color: #D93060;
 }
 .contact-links-left {
     display: flex;
