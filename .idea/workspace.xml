@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24e2022d-4201-4738-8ef9-3b0186305d35" name="Changes" comment="slettelse af png">
+    <list default="true" id="24e2022d-4201-4738-8ef9-3b0186305d35" name="Changes" comment="rettelser">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -96,7 +96,7 @@
       <workItem from="1789388899821" duration="34628000" />
       <workItem from="1789831808931" duration="10548000" />
       <workItem from="1789987009776" duration="2103000" />
-      <workItem from="1789997920306" duration="9052000" />
+      <workItem from="1789997920306" duration="9724000" />
     </task>
     <task id="LOCAL-00001" summary="implemented html">
       <option name="closed" value="true" />
@@ -282,7 +282,23 @@
       <option name="project" value="LOCAL" />
       <updated>1790014247386</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Tilføjelse af tekst til sektioner">
+      <option name="closed" value="true" />
+      <created>1790015806043</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1790015806043</updated>
+    </task>
+    <task id="LOCAL-00025" summary="rettelser">
+      <option name="closed" value="true" />
+      <created>1790015817650</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1790015817650</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,6 +336,8 @@
     <MESSAGE value="favicon" />
     <MESSAGE value="favicon.png billede" />
     <MESSAGE value="slettelse af png" />
-    <option name="LAST_COMMIT_MESSAGE" value="slettelse af png" />
+    <MESSAGE value="Tilføjelse af tekst til sektioner" />
+    <MESSAGE value="rettelser" />
+    <option name="LAST_COMMIT_MESSAGE" value="rettelser" />
   </component>
 </project>
