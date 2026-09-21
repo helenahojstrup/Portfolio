@@ -197,11 +197,13 @@ footer {
         object-fit: cover;
     }
     nav a {
-        font-size: 7px;
+        font-size: 12px;
         padding: 8px 4px;
     }
     #forside h1 {
-        font-size: clamp(24px, 5vw, 55px);
+        display: flex;
+        justify-content: center;
+        font-size: clamp(12px, 5vw, 20px);
     }
     p {
         margin-left: 5px;
@@ -214,7 +216,7 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: flex-end;
+        align-items: center;
         margin-top: 4px;
         margin-left: 5px;
         margin-right: 5px;
@@ -228,5 +230,68 @@ footer {
         height: auto;
         color: #DDD1C7;
         letter-spacing: clamp(5px, 2vw, 25px);
+    }
+    h2 {
+        font-size: 16px;
+        margin-left: 5px;
+        border-bottom: 2px solid #5E0B15;
+        letter-spacing: 2px;
+        line-height: 25px;
+    }
+    #erhvervserfaring ul {
+        list-style: circle;
+        margin-left: 1px;
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+    ol {
+        list-style: none;
+        letter-spacing: 1px;
+        margin-left: 1px;
+        font-size: 10px;
+        text-align: left;
+    }
+    #kontakt h2 {
+        display: flex;
+        justify-content: center;
+        color: #DDD1C7;
+        font-size: 16px;
+        margin: 0;
+        padding: 10px;
+        border-bottom: none;
+    }
+    .contact-links {
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact-links a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        gap: 2px;
+        color: #DDD1C7;
+    }
+    .contact-links a:hover {
+        color: #D93060;
+
+    }
+    .contact-links-left {
+        display: flex;
+        gap: 10px;
+        margin-left: 20px;
+    }
+    .contact-links-right {
+        display: flex;
+        margin-right: 20px;
+        gap: 10px;
+    }
+    .contact-links svg {
+        width: 10px;
+        height: 10px;
+    }
+    .contact-links span {
+        padding: 10px;
+        font-size: 2px;
     }
 }

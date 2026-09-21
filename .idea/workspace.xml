@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24e2022d-4201-4738-8ef9-3b0186305d35" name="Changes" comment="rettelser">
+    <list default="true" id="24e2022d-4201-4738-8ef9-3b0186305d35" name="Changes" comment="Rettelser i tekst">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +95,7 @@
       <workItem from="1789388899821" duration="34628000" />
       <workItem from="1789831808931" duration="10548000" />
       <workItem from="1789987009776" duration="2103000" />
-      <workItem from="1789997920306" duration="9724000" />
+      <workItem from="1789997920306" duration="10799000" />
     </task>
     <task id="LOCAL-00001" summary="implemented html">
       <option name="closed" value="true" />
@@ -298,7 +297,23 @@
       <option name="project" value="LOCAL" />
       <updated>1790015817650</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="rettelser til mobilformat">
+      <option name="closed" value="true" />
+      <created>1790016531633</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1790016531633</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Rettelser i tekst">
+      <option name="closed" value="true" />
+      <created>1790016541884</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1790016541884</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,6 +353,8 @@
     <MESSAGE value="slettelse af png" />
     <MESSAGE value="Tilføjelse af tekst til sektioner" />
     <MESSAGE value="rettelser" />
-    <option name="LAST_COMMIT_MESSAGE" value="rettelser" />
+    <MESSAGE value="rettelser til mobilformat" />
+    <MESSAGE value="Rettelser i tekst" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rettelser i tekst" />
   </component>
 </project>
