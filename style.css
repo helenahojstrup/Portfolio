@@ -106,7 +106,7 @@ body {
     font-size: 20px;
     background-color: #DDD1C7;
     letter-spacing: 1px;
-    font-family: Georgia, sans-serif;
+    font-family:Georgia, 'Times New Roman', serif;
 }
 p {
     margin-left: 50px;
@@ -237,7 +237,7 @@ footer {
     #forside {
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
         height: auto;
         color: #DDD1C7;
