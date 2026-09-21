@@ -15,7 +15,7 @@ header {
     background-color: #06402B;
     padding: 15px;
     border-radius: 30px;
-    min-height: 850px;
+    min-height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
