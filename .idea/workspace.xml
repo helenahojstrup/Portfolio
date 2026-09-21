@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24e2022d-4201-4738-8ef9-3b0186305d35" name="Changes" comment="Rettelser til mobil">
+    <list default="true" id="24e2022d-4201-4738-8ef9-3b0186305d35" name="Changes" comment="favicon">
+      <change afterPath="$PROJECT_DIR$/favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +96,7 @@
       <workItem from="1789388899821" duration="34628000" />
       <workItem from="1789831808931" duration="10548000" />
       <workItem from="1789987009776" duration="2103000" />
-      <workItem from="1789997920306" duration="6829000" />
+      <workItem from="1789997920306" duration="7486000" />
     </task>
     <task id="LOCAL-00001" summary="implemented html">
       <option name="closed" value="true" />
@@ -257,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790012972473</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="favicon">
+      <option name="closed" value="true" />
+      <created>1790013513515</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1790013513515</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +301,7 @@
     <MESSAGE value="Rettelse til telefon format" />
     <MESSAGE value="Ændring af height på forside" />
     <MESSAGE value="Rettelser til mobil" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rettelser til mobil" />
+    <MESSAGE value="favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="favicon" />
   </component>
 </project>
